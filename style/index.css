@@ -27,8 +27,29 @@ footer, header, hgroup, menu, nav, section {
 
 * {
     box-sizing: border-box;
+    border: 1px solid grey;
 }
 
-h1 {
-    color: blue;
+html {
+    font-size: 62.5%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,800&family=Long+Cang&display=swap');
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Long Cang', cursive;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Grandstander', cursive;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+section {
+    padding: 4% 0;
 }
