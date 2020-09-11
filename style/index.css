@@ -141,6 +141,16 @@ h1 {
     color: orangered;
 }
 
+div {
+    display: flex;
+    flex-direction: row;  
+}
+
+#one {
+    width: 40%;
+    height: 10%;
+}
+
 
 
 
