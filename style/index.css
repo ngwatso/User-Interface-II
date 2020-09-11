@@ -211,11 +211,16 @@ p {
 
 #footer {
     width: 100%;
+    padding: 2% 0;
     background-image: url(https://images.unsplash.com/photo-1599719036708-b6b659c9855f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80);
     background-size: cover;
     background-position: center;
     background-color: #C0C0C0;
     border: 5px solid orangered;
+    display: flex;
+    flex-flow: column;
+    align-items: center;  
+    justify-content: center;
 }
 
 .pic {
@@ -230,4 +235,29 @@ p {
     display: block;
     font-size: 3rem;
     color: orangered;
+}
+
+#social {
+    display: inline-block;
+}
+
+.buttonL {
+    width: 100px;
+    height: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 3px solid orangered;
+    color: orangered;
+    transition: 1s;
+    margin: 5% 0;
+}
+
+.buttonL:hover {
+    width: 100px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid orangered;
+    background-color: orangered;
+    color: black;
 }
