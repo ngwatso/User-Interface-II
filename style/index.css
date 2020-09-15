@@ -65,8 +65,6 @@ a {
 }
 
 .buttonS:hover {
-    /* width: 9rem;
-    height: 20px; */
     padding: .6rem;
     border-radius: 1rem;
     border: .3rem solid orangered;
@@ -110,7 +108,7 @@ a {
     color: black;
 }
 
-#header {
+header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -205,7 +203,7 @@ p {
     width: 30rem;
 }
 
-#footer {
+footer {
     width: 100%;
     padding: 2% 0;
     background-image: url(https://images.unsplash.com/photo-1599719036708-b6b659c9855f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80);
@@ -260,4 +258,12 @@ p {
 
 #filler {
     height: 100vh;
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+    #container {
+        display: block;
+    }
 }
