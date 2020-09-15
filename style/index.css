@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 
 * {
     box-sizing: border-box;
-    border: 5px solid grey;
+    /* border: 5px solid grey; */
 }
 
 html {
@@ -41,7 +41,6 @@ body {
     background-size: cover;
     background-position: center;
     background-color: #FFDAB9;
-    /* height: 100vh; */
     font-size: 1.6rem;
     line-height: 1.5;
     font-family: 'Long Cang', cursive;
@@ -52,65 +51,61 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     text-decoration: none;
-    letter-spacing: 3px;
+    letter-spacing: .3rem;
 }
 
 .buttonS {
-    width: 100px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    border: 3px solid orangered;
+    width: 10rem;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: .3rem solid orangered;
     color: orangered;
     transition: 1s;
 }
 
 .buttonS:hover {
-    width: 100px;
-    height: 20px;
-    padding: 6px;
-    border-radius: 10px;
-    border: 3px solid orangered;
+    /* width: 9rem;
+    height: 20px; */
+    padding: .6rem;
+    border-radius: 1rem;
+    border: .3rem solid orangered;
     background-color: orangered;
     color: black;
 }
 
 .buttonHome {
-    width: 100px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    /* border: 3px solid black; */
+    width: 10rem;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
     background-color: orangered;
     color: black;
 }
 
 .buttonAbout {
-    width: 100px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    /* border: 3px solid black; */
+    width: 10rem;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
     background-color: orangered;
     color: black;
 }
 
 .buttonProjects {
-    width: 100px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    /* border: 3px solid black; */
+    width: 10rem;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
     background-color: orangered;
     color: black;
 }
 
 .buttonContact {
-    width: 100px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    /* border: 3px solid black; */
+    width: 10rem;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
     background-color: orangered;
     color: black;
 }
@@ -127,8 +122,7 @@ a {
     background-size: cover;
     background-position: center;
     background-color: #C0C0C0;
-    /* border-top: 5px solid orangered; */
-    border: 5px solid orangered;
+    border: 1rem solid orangered;
 }
 
 h1 {
@@ -150,7 +144,7 @@ div {
 }
 
 img {
-    border: 10px solid orangered;
+    border: 1rem solid orangered;
 }
 
 #two {
@@ -158,7 +152,7 @@ img {
     width: 50%;
     padding-left: 2%;
     background-image: url(https://images.unsplash.com/photo-1572556839520-91b8d51593f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-    border: 10px solid orangered;
+    border: 1rem solid orangered;
     display: flex;
     flex-flow: wrap column;
 }
@@ -180,22 +174,22 @@ h2 {
 }
 
 .buttonM {
-    width: 100px;
-    height: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    border: 3px solid orangered;
+    width: 10rem;
+    height: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: .3rem solid orangered;
     color: orangered;
     transition: 1s;
     margin: 5% 0;
 }
 
 .buttonM:hover {
-    width: 100px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    border: 3px solid orangered;
+    width: 10rem;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: .3rem solid orangered;
     background-color: orangered;
     color: black;
 }
@@ -207,9 +201,8 @@ p {
 }
 
 .placeholder {
-    height: 300px;
-    width: 300px;
-    /* margin: 2% 6%; */
+    height: 30rem;
+    width: 30rem;
 }
 
 #footer {
@@ -219,7 +212,7 @@ p {
     background-size: cover;
     background-position: center;
     background-color: #C0C0C0;
-    border: 5px solid orangered;
+    border: 1rem solid orangered;
     display: flex;
     flex-flow: column;
     align-items: center;  
@@ -229,7 +222,7 @@ p {
 .pic {
     vertical-align: top;
     text-align: center;
-    width: 400px;
+    width: 40rem;
     display: inline-block;
     margin: 0 2%;
 }
@@ -245,22 +238,22 @@ p {
 }
 
 .buttonL {
-    width: 100px;
-    height: 20px;
-    padding: 30px;
-    border-radius: 10px;
-    border: 3px solid orangered;
+    width: 10rem;
+    height: 2rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: .3rem solid orangered;
     color: orangered;
     transition: 1s;
     margin: 5% 0;
 }
 
 .buttonL:hover {
-    width: 100px;
-    height: 20px;
-    padding: 15px;
-    border-radius: 10px;
-    border: 3px solid orangered;
+    width: 10rem;
+    height: 2rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: .3rem solid orangered;
     background-color: orangered;
     color: black;
 }
