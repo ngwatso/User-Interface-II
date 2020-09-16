@@ -347,9 +347,52 @@ footer {
         align-items: center;
     }
 
+    div {
+        padding: 10vw;
+    }
+
+    #two {
+        width: 80vw;
+    }
+
     .buttonS {
         height: 10vw;
         width: 40vw;
+        border: .5rem solid black;
+    }
+
+    .buttonM {
+        height: 10vw;
+        width: 40vw;
+        border: .5rem solid black;
+    }
+    .buttonL {
+        height: 10vw;
+        width: 40vw;
+        border: .5rem solid black;
+    }
+
+    .buttonHome {
+        height: 8vw;
+        width: 35vw;
+        border: .5rem solid black;
+    }
+
+    .buttonAbout {
+        height: 8vw;
+        width: 35vw;
+        border: .5rem solid black;
+    }
+
+    .buttonProjects {
+        height: 8vw;
+        width: 35vw;
+        border: .5rem solid black;
+    }
+
+    .buttonContact {
+        height: 8vw;
+        width: 35vw;
         border: .5rem solid black;
     }
 
