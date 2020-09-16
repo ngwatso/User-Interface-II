@@ -156,11 +156,11 @@ img {
 }
 
 #three {
-    height: 20%;
+    height: 40%;
     width: 100%;
-    padding: 5%;
+    /* padding: 2%; */
     display: flex;
-    flex-flow: wrap;
+    flex-flow: wrap row;
     justify-content: space-evenly;
     align-items: space-around;
 }
@@ -199,8 +199,15 @@ p {
 }
 
 .placeholder {
-    height: 30rem;
-    width: 30rem;
+    height: auto;
+    width: 90%;
+    max-width: 300px;
+}
+
+.responsive {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
 }
 
 footer {
@@ -220,7 +227,7 @@ footer {
 .pic {
     vertical-align: top;
     text-align: center;
-    width: 40rem;
+    /* width: 40vw; */
     display: inline-block;
     margin: 0 2%;
 }
@@ -268,6 +275,14 @@ footer {
     text-align: center;
    }
 
+    #one {
+        width: 45%;
+    }
+
+    #two {
+        width: 45%;
+    }
+
     #two h2 {
        text-align: center;
    }
@@ -281,10 +296,45 @@ footer {
     }
 
     .pic {
-        width: 40vw;
+        width: 45vw;
     }
 
     .buttonL {
         padding: 1.25rem;
+    }
+}
+
+/* Media Queries - 500 */
+
+@media (max-width: 500px) {
+
+    header {
+        height: 80vw;
+        width: 100vw;
+        padding: 0;
+    }
+
+    header nav {
+        height: 50vw;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    #container {
+        display: block;
+    }
+
+    #one {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #three {
+        padding: 5% 0;
+    }
+
+    .pic {
+        margin: 0;
     }
 }
