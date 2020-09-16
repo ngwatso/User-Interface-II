@@ -260,10 +260,31 @@ footer {
     height: 100vh;
 }
 
-/* Media Queries */
+/* Media Queries - 800*/
 
 @media (max-width: 800px) {
-    #container {
-        display: block;
+
+    header {
+    text-align: center;
+   }
+
+    #two h2 {
+       text-align: center;
+   }
+
+    #two nav {
+        text-align: center;
+    }
+
+    .buttonM {
+        padding: .75rem;
+    }
+
+    .pic {
+        width: 40vw;
+    }
+
+    .buttonL {
+        padding: 1.25rem;
     }
 }
