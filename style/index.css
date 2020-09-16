@@ -211,8 +211,9 @@ p {
 }
 
 footer {
+    height: 40%;
     width: 100%;
-    padding: 2% 0;
+    /* padding: 1% 0; */
     background-image: url(https://images.unsplash.com/photo-1599719036708-b6b659c9855f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80);
     background-size: cover;
     background-position: center;
@@ -221,7 +222,15 @@ footer {
     display: flex;
     flex-flow: column;
     align-items: center;  
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+footer nav {
+    margin: 2% 0;
+}
+
+footer h2 {
+    margin: 1% 0;
 }
 
 .pic {
@@ -273,6 +282,11 @@ footer {
 
     header {
     text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1593000904207-7e529d2bb019?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+   }
+
+   footer {
+    background-image: url(https://images.unsplash.com/photo-1593000904207-7e529d2bb019?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
    }
 
     #one {
@@ -362,13 +376,16 @@ footer {
     }
 
     .buttonM {
-        height: 10vw;
+        height: 5vw;
         width: 40vw;
+        padding: .25rem;
         border: .5rem solid black;
     }
+
     .buttonL {
-        height: 10vw;
+        height: 5vw;
         width: 40vw;
+        padding: .25rem;
         border: .5rem solid black;
     }
 
