@@ -158,7 +158,6 @@ img {
 #three {
     height: 40%;
     width: 100%;
-    /* padding: 2%; */
     display: flex;
     flex-flow: wrap row;
     justify-content: space-evenly;
@@ -276,7 +275,24 @@ footer h2 {
     height: 100vh;
 }
 
-/* Media Queries - 800*/
+/* Media Queries - 1024px */
+
+@media (max-width: 1024px) {
+
+    .buttonM {
+        padding: .75rem;   
+    }
+
+    .buttonL {
+        padding: 1rem;
+    }
+
+    footer h2 {
+        font-size: 4rem;
+    }
+}
+
+/* Media Queries - 800px */
 
 @media (max-width: 800px) {
 
@@ -289,10 +305,6 @@ footer h2 {
    footer {
     height: 50vw;
     background-image: url(https://images.unsplash.com/photo-1593000904207-7e529d2bb019?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-   }
-
-   footer h2 {
-       font-size: 4rem;
    }
 
     #one {
@@ -334,7 +346,6 @@ footer h2 {
     }
 
     .buttonM {
-        padding: .75rem;
         background-color: orangered;
         color: black;
     }
@@ -344,13 +355,12 @@ footer h2 {
     }
 
     .buttonL {
-        padding: 1rem;
         background-color: orangered;
         color: black;
     }
 }
 
-/* Media Queries - 500 */
+/* Media Queries - 500px */
 
 @media (max-width: 500px) {
 
@@ -449,5 +459,47 @@ footer h2 {
 
     .pic {
         margin: 0;
+    }
+}
+
+/* Media Queries - 360px */
+
+@media (max-width: 360px) {
+   
+    h1 {
+        margin: 0;
+    }
+}
+
+/* Media Queries - 280px */
+
+@media (max-width: 280px) {
+    
+    h1 {
+        font-size: 10vw;
+    }
+
+    header nav {
+        font-size: 3.5vw;
+    }
+
+    h2 {
+        font-size: 10vw;
+    }
+
+    .buttonM {
+        font-size: 3.5vw;
+    }
+
+    .buttonL {
+        font-size: 3.5vw;
+    }
+
+    footer h2 {
+        font-size: 8vw;
+    }
+
+    .label {
+        font-size: 6vw
     }
 }
