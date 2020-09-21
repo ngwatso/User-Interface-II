@@ -36,10 +36,11 @@ html {
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,800&family=Long+Cang&display=swap');
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1513941025786-ed97f054ebba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1513941025786-ed97f054ebba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);
     background-size: cover;
-    background-position: center;
-    background-color: #FFDAB9;
+    background-position: center; */
+    /* background-color: #FFDAB9; */
+    background-image: linear-gradient(to left, #434343 0%, black 100%);
     font-size: 1.6rem;
     line-height: 1.5;
     font-family: 'Long Cang', cursive;
